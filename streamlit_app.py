@@ -5,7 +5,7 @@ import uuid
 import requests
 
 # --- モデルID（適宜確認・変更可能） ---
-MODEL = "gemini-1.5-flash"  # または "gemini-1.0-pro" など、Googleの提供内容に応じて変更
+MODEL = "gemini-2.0-flash"  # または "gemini-1.0-pro" など、Googleの提供内容に応じて変更
 
 # --- セッションステート初期化 ---
 if "history" not in st.session_state:
